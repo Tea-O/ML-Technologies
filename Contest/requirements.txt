@@ -1,0 +1,6 @@
+numpy==1.26.4
+pillow==12.2.0
+torch==2.11.0
+torchvision==0.26.0
+matplotlib==3.9.2
+notebook==7.2.1

@@ -1,0 +1,20 @@
+{
+  "architecture": "resnext50_32x4d",
+  "resolution": 288,
+  "weights": "model_ema.pt",
+  "tta": "Mean of logits for the original and horizontally flipped image",
+  "split_metrics": {
+    "val": {
+      "accuracy": 0.9891566265060241,
+      "correct": 2463,
+      "errors": 27,
+      "images": 2490
+    },
+    "test": {
+      "accuracy": 0.9912,
+      "correct": 2478,
+      "errors": 22,
+      "images": 2500
+    }
+  }
+}
